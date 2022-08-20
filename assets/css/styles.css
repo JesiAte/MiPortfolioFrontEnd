@@ -34,15 +34,29 @@ p {
     line-height: 180%; /* alto de la linea*/
     font-weight: 100; /* ancho de la fuenta*/
 }
-
-.icono{
-    width: 16%;
+.red1 {
     float: left;
 }
 
-.tarjeta{
-    width: 35%;
+.red2 {
     float: center;
+}
+
+.red3 {
+    float: right;
+}
+
+.icono{
+   /* height: 55%; altura*/
+    width: 8%;
+    float: left;
+    
+}
+
+.tarjeta{
+    width: 20%;
+    float: center;
+    text-align: center;
 }
 
 body {
