@@ -1,66 +1,77 @@
+/*
 *{
-     width: 95%;     /* width: ANCHO */
-    margin: auto;   /* margin: MARGEN, PUEDE TENER DE UNO A CUATRO VALORES QUE SE ASIGNAN EN LOS SENTIDOS DE LAS AGUJAS DEL RELOJ */
-    padding: .5%;   /* padding: DESPLAZAMIENTO INTERNO DEL ELEMENTO QUE ESTEMOS TRATANDO DE ORDENAR */
-     /* #ffe0e0*/
-}                   /* % REM Y EM SE AJUSTAN A CUALQUIER DISPOSITIVO */
+     width: 95%;     /* width: ANCHO
+    margin: auto;   /* margin: MARGEN, PUEDE TENER DE UNO A CUATRO VALORES QUE SE ASIGNAN EN LOS SENTIDOS DE LAS AGUJAS DEL RELOJ
+    padding: .5%;   /* padding: DESPLAZAMIENTO INTERNO DEL ELEMENTO QUE ESTEMOS TRATANDO DE ORDENAR
+     /* #ffe0e0
+}                   /* % REM Y EM SE AJUSTAN A CUALQUIER DISPOSITIVO
+*/
 
-#banner {
-    height: 400px; /* alto del banner */
-    padding-top: 150px; 
-    color:blueviolet; /* color del banner */
-    background-image: url(""); /* imagen del banner */
-    background-position: center; 
-    background-size: cover; 
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+header{
+    overflow: hidden;
+}
+
+.header-1{
+    background-color: rgb(185, 185, 185);
+    position: fixed;
+    height:3em;
+    width: 100%;
+}
+/*dentro del header(up)*/
+    .box-logo-ap{
+        width: 5em;
+        height:3em;
+        position:relative;
+        /* background-color: aquamarine; */
+    }
+
+    .box-redes{
+
+        height:2.5em;
+        position: absolute;
+        /* background-color: royalblue; */
+        bottom:0;
+        right: 0;  
+    }
+
+.banner{
+    margin-top:3em;
+    background-color: rgb(133, 239, 172);
+}
+
+.iconoAP{
+    height:3em;
+}
+
+.iconos{
+    height:2em;
+
+}
+
+.container{
+    background-color: lightpink;
 }
 
 
-.userpicture {
-    border-radius: 50%;
-} 
 
-.titulo{
-    color: #9c5a5afa;
-    font-size: 5rem;
-    text-align: center;
+.accesored{
+    width: 1.2em;
 }
 
-a{
-    text-decoration: none;
-}
+.link{
+    margin-bottom: 2em;
+    background-color: blueviolet;
+    color:#222;
+    padding:0.5em 1em;
+    border-radius: 0.5em;
+    font-size: 1rem;
 
-p {
-    
-    line-height: 180%; /* alto de la linea*/
-    font-weight: 100; /* ancho de la fuenta*/
 }
-.red1 {
-    float: left;
-}
-
-.red2 {
-    float: center;
-}
-
-.red3 {
-    float: right;
-}
-
-.icono{
-   /* height: 55%; altura*/
-    width: 8%;
-    float: left;
-    
-}
-
-.tarjeta{
-    width: 20%;
-    float: center;
-    text-align: center;
-}
-
-body {
-    background-color:rgba(233, 170, 244, 0.173);
-}
-
-/*container-fluid */
