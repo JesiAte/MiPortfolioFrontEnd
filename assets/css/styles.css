@@ -13,17 +13,20 @@
 
 body{
     margin:0;
+    font-family: sans-serif;
 }
 
 header{
     overflow: hidden;
 }
 
-.header-1{
-    background-color: rgb(185, 185, 185);
+.navbar{
+    background-color: #00358e;
     position: fixed;
+    z-index: 1;
     height:3em;
     width: 100%;
+    
 }
 /*dentro del header(up)*/
     .box-logo-ap{
@@ -34,7 +37,6 @@ header{
     }
 
     .box-redes{
-
         height:2.5em;
         position: absolute;
         /* background-color: royalblue; */
@@ -42,36 +44,62 @@ header{
         right: 0;  
     }
 
+    .iconoAP{
+        height:3em;
+    }
+    
+    .redes{
+        height:2em;
+    }
+    
+    .login{
+        margin-bottom: 2em;
+        background-color: blueviolet;
+        color:#222;
+        padding:0.5em 1em;
+        border-radius: 0.5em;
+        font-size: 1rem;
+    }
+
+    .yoprogramo{
+        
+    }
+    
 .banner{
     margin-top:3em;
     background-color: rgb(133, 239, 172);
 }
 
-.iconoAP{
-    height:3em;
+.fondo_banner{
+    width: 100%;
+    height:30em;
 }
 
-.iconos{
-    height:2em;
-
+.text_banner{
+    text-align: center;
+    color: aliceblue;
 }
 
 .container{
     background-color: lightpink;
 }
 
-
-
-.accesored{
-    width: 1.2em;
-}
-
-.link{
-    margin-bottom: 2em;
-    background-color: blueviolet;
-    color:#222;
-    padding:0.5em 1em;
-    border-radius: 0.5em;
-    font-size: 1rem;
+.img_banner{
+    height:20em;
 
 }
+
+.img_foto{
+    position:absolute;
+    border-radius:100%;
+    top: 18em;
+    left: 3em;
+    height:22em;
+}
+.tome{
+    margin-left:22em;
+    margin-right: 5em;
+    height: em;
+
+}
+.img{}
