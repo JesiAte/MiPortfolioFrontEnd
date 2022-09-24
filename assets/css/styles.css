@@ -61,9 +61,9 @@ header{
         font-size: 1rem;
     }
 
-    .yoprogramo{
+    /* .yoprogramo{
         
-    }
+    } */
     
 .banner{
     margin-top:3em;
@@ -86,7 +86,6 @@ header{
 
 .img_banner{
     height:20em;
-
 }
 
 .img_foto{
@@ -96,10 +95,10 @@ header{
     left: 3em;
     height:22em;
 }
+
 .tome{
     margin-left:22em;
     margin-right: 5em;
     height: em;
-
 }
-.img{}
+/* .img{} */
